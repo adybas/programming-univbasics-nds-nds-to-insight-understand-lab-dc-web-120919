@@ -6,7 +6,7 @@ require 'pry'
 
 def pretty_print_nds(nds)
   # Change the code below to pretty print the nds with pp
-  p pp nds
+  pp nds
 end
 
 def print_first_directors_movie_titles
@@ -16,9 +16,4 @@ def print_first_directors_movie_titles
       puts "#{directors_database[0][:movies][count][:title]}"
       count += 1
     end
-end
-
-def pretty_print_nds(nds)
-  # Change the code below to pretty print the nds with pp
-  p pp nds
 end
